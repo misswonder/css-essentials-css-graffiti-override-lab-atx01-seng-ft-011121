@@ -1,4 +1,24 @@
 /* write your override styles here */
-.tag-1 { 
-  display: none important!;
+#wall > .tag-1 { 
+  display: none;
+}
+
+body > #wall #tag-2 {
+  display: none;
+}
+
+#wall > #tag-3.slick.wicked {
+  display: none;
+}
+
+#wall > .parent > #tag-4 {
+  display: none;
+}
+
+body > #wall > div.parent > #tag-5.slick {
+  display: none;
+}
+
+body > div#wall > div.parent > div:last-child > div#tag-6 {
+  display: none;
 }
